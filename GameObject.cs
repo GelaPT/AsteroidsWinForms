@@ -21,7 +21,7 @@ namespace Asteroids {
         /// <param name="velocity"></param>
         /// <param name="direction"></param>
         /// <param name="size"></param>
-        protected GameObject(float posX, float posY, double velocity, double direction, double size, int screenWidth int screenHeight) {
+        protected GameObject(float posX, float posY, double velocity, double direction, double size, int screenWidth, int screenHeight) {
             PosX = posX;
             PosY = posY;
             Velocity = velocity;
